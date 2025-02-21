@@ -56,6 +56,10 @@ Passwords/
 ├── hashes.txt
 ├── rockyou.txt (Wordlist for cracking)
 ```
+### **Important: Extracting rockyou.txt**
+Before starting, you need to extract the rockyou.txt wordlist
+
+Note: The rockyou.txt wordlist is approximately 133MB when extracted. Make sure you have enough disk space.
 
 ### **Step 1: Install John the Ripper**
 Install John the Ripper on your system:
