@@ -54,7 +54,7 @@ Passwords/
 ├── password_hash.py
 ├── hashp.py
 ├── hashes.txt
-├── rockyou.txt (Wordlist for cracking, extract first)
+├── rockyou.txt (Wordlist for cracking, extract first from zip)
 ```
 ### **Important: Extracting rockyou.txt**
 Before starting, you need to extract the rockyou.txt wordlist
