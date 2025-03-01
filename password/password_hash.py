@@ -11,7 +11,6 @@ def hash_password(password):
     salt = bcrypt.gensalt()  # Generate a random salt
     hashed = bcrypt.hashpw(password.encode(), salt)  # Hash password with salt
     return hashed
-
 def verify_password(password, hashed):
     """
     Verify if a password matches its hash
